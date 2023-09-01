@@ -15328,7 +15328,7 @@
     (property "Reference" "U" (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "UCC28704" (at 0 6.35 0)
+    (property "Value" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 0 0)
