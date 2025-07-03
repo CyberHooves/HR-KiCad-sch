@@ -16524,6 +16524,362 @@
 			)
 		)
 	)
+	(symbol "HR-0000.0122"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HR-0000.0122"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HR_Parts:HR-0000.0122"
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HR-0000.0122_1_1"
+			(rectangle
+				(start -6.35 8.89)
+				(end 6.35 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -10.16 6.35 0)
+				(length 3.81)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -6.35 0)
+				(length 3.81)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 6.35 180)
+				(length 3.81)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 1.27 180)
+				(length 3.81)
+				(name "IMON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -1.27 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -3.81 180)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 10.16 -6.35 180)
+				(length 3.81)
+				(name "~{PG}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "HR-0000.0124"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HR-0000.0124"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HR_Parts:HR-0000.0124"
+			(at -2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HR-0000.0124_1_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -10.16 3.81 0)
+				(length 3.81)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -3.81 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 -3.81 180)
+				(length 3.81)
+				(name "GND2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 -1.27 180)
+				(length 3.81)
+				(name "+12V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 1.27 180)
+				(length 3.81)
+				(name "+15V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 3.81 180)
+				(length 3.81)
+				(name "-15V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "HT-RTN"
 		(power)
 		(pin_numbers hide)
@@ -25346,7 +25702,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.89 10.16 0)
+			(at 0 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25354,7 +25710,7 @@
 			)
 		)
 		(property "Value" "LT8304"
-			(at -7.62 -10.16 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25362,7 +25718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -10.16 0 0)
+			(at -7.62 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25371,7 +25727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -10.16 0 0)
+			(at -7.62 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25390,8 +25746,8 @@
 		)
 		(symbol "LT8304_0_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -7.62)
+				(start -7.62 21.59)
+				(end 7.62 -8.89)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -25403,7 +25759,7 @@
 		)
 		(symbol "LT8304_1_1"
 			(pin input line
-				(at -13.97 5.08 0)
+				(at -11.43 16.51 0)
 				(length 3.81)
 				(name "EN/UVLO"
 					(effects
@@ -25421,7 +25777,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 2.54 0)
+				(at -11.43 3.81 0)
 				(length 3.81)
 				(name "INTVCC"
 					(effects
@@ -25439,7 +25795,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 11.43 270)
+				(at -11.43 19.05 0)
 				(length 3.81)
 				(name "VIN"
 					(effects
@@ -25457,7 +25813,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -11.43 90)
+				(at -11.43 6.35 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -25475,7 +25831,7 @@
 				)
 			)
 			(pin power_out line
-				(at 13.97 5.08 180)
+				(at 11.43 16.51 180)
 				(length 3.81)
 				(name "SW"
 					(effects
@@ -25493,7 +25849,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -5.08 180)
+				(at 11.43 6.35 180)
 				(length 3.81)
 				(name "RFB"
 					(effects
@@ -25511,7 +25867,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 0 0)
+				(at 11.43 3.81 180)
 				(length 3.81)
 				(name "RREF"
 					(effects
@@ -25529,7 +25885,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -5.08 0)
+				(at 11.43 -6.35 180)
 				(length 3.81)
 				(name "TC"
 					(effects
@@ -25547,7 +25903,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -11.43 90)
+				(at -11.43 -6.35 0)
 				(length 3.81)
 				(name "GND"
 					(effects
