@@ -41318,7 +41318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at -3.81 0 0)
 			(effects
 				(font
@@ -41469,7 +41469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at -3.81 0 0)
 			(effects
 				(font
@@ -41801,6 +41801,308 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MCP1415"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1415"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MCP1415_1_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at 0 0 0)
+				(length 0) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 1.27 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -1.27 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "~{OUT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MCP1416"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1416"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MCP1416_1_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at 0 0 0)
+				(length 0) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 1.27 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -1.27 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -54228,6 +54530,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 12.7 3.81 180)
+				(length 3.81)
+				(name "~{PD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -1.27 -10.16 90)
 				(length 3.81) hide
@@ -54448,24 +54768,6 @@
 				(at 12.7 -3.81 180)
 				(length 3.81)
 				(name "Vocm"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 3.81 180)
-				(length 3.81)
-				(name "~{PD}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -62208,15 +62510,15 @@
 				)
 			)
 		)
-		(property "Value" "TRANSFORMER-ETD29"
-			(at 0 -11.43 0)
+		(property "Value" "ETD29"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HR_Parts:TRANSFORMER-ETD29-13P-H"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62225,7 +62527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/80/db/fer/etd_29_16_10.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62243,22 +62545,20 @@
 				(hide yes)
 			)
 		)
-		(symbol "TRANSFORMER-ETD29_0_1"
+		(symbol "TRANSFORMER-ETD29_1_1"
 			(rectangle
-				(start -5.08 10.16)
-				(end 5.08 -10.16)
+				(start -3.81 10.16)
+				(end 3.81 -10.16)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-		)
-		(symbol "TRANSFORMER-ETD29_1_1"
 			(pin passive line
-				(at -8.89 7.62 0)
+				(at -7.62 7.62 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62276,7 +62576,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 0 180)
+				(at 7.62 0 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62294,7 +62594,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 2.54 180)
+				(at 7.62 2.54 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62312,7 +62612,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 5.08 180)
+				(at 7.62 5.08 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62330,7 +62630,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 7.62 180)
+				(at 7.62 7.62 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62348,7 +62648,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 5.08 0)
+				(at -7.62 5.08 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62366,7 +62666,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 2.54 0)
+				(at -7.62 2.54 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62384,7 +62684,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -2.54 0)
+				(at -7.62 -2.54 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62402,7 +62702,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -5.08 0)
+				(at -7.62 -5.08 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62420,7 +62720,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -7.62 0)
+				(at -7.62 -7.62 0)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62438,7 +62738,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -7.62 180)
+				(at 7.62 -7.62 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62456,7 +62756,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -5.08 180)
+				(at 7.62 -5.08 180)
 				(length 3.81)
 				(name "~"
 					(effects
@@ -62474,7 +62774,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -2.54 180)
+				(at 7.62 -2.54 180)
 				(length 3.81)
 				(name "~"
 					(effects
